@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 
+<?php
+        function isMobile() {
+            return preg_match('/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i', $_SERVER['HTTP_USER_AGENT']);
+        }
+        if (isMobile() == 1) {
+          echo "<meta name='viewport' content='width=device-width, initial-scale=1, minimal-ui, maximum-scale=1.0, user-scalable=0'>";
+          echo "<meta name='apple-mobile-web-app-capable' content='yes' />";
+        }
+    ?>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
