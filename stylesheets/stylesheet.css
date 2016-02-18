@@ -59,7 +59,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 35px 0 0 0;
+  margin: 15px 0 0 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -389,6 +389,10 @@ Small Device Styles
   #project_title {
   font-size: 32px;
   }
+  
+  h1, h2, h3, h4, h5, h6 {
+  margin: 35px 0 0 0;
+}
 
   h1 {
     font-size: 28px;
