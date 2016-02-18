@@ -59,7 +59,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 50px 0 0 0;
+  margin: 35px 0 0 0;
   font-weight: 700;
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
@@ -374,7 +374,7 @@ Small Device Styles
 
 @media screen and (max-width: 1200px) {
   body {
-    font-size:11px;
+    font-size:12px;
   }
 
   #downloads {
