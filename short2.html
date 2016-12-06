@@ -17,6 +17,15 @@ function universalisCallback(data)
 {
  if (data.Mass_G.source) document.getElementById("GospelSource").innerHTML=data.Mass_G.source; 
  if (data.Mass_G.text) document.getElementById("GospelText").innerHTML=data.Mass_G.text;     
+ if (data.Mass_R1.source) document.getElementById("R1Source").innerHTML=data.Mass_R1.source; 
+ if (data.Mass_R1.text) document.getElementById("R1Text").innerHTML=data.Mass_R1.text;   
+ if (data.Mass_Ps.source) document.getElementById("PsalmSource").innerHTML=data.Mass_Ps.source;
+ if (data.Mass_Ps.text) document.getElementById("PsalmText").innerHTML=data.Mass_Ps.text;     
+// if (data.date) document.getElementById("DateString").innerHTML=data.date;                     
+ if (data.day) document.getElementById("DayDescription").innerHTML=data.day;            
+
+ if (data.Mass_R2.source) document.getElementById("R2Source").innerHTML=data.Mass_R2.source; 
+ if (data.Mass_R2.text) document.getElementById("R2Text").innerHTML=data.Mass_R2.text;  
 }
 </script>
 
